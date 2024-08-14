@@ -17,10 +17,10 @@ public class Main {
                     }
                 } else {
                     System.out.println("Invalid input. Please enter a number.");
-                    scanner.next(); // Clear the invalid input
+                    scanner.next(); 
                 }
             }
-            scanner.nextLine(); // Consume the remaining newline
+            scanner.nextLine();
 
             List<Player> players = new ArrayList<>();
             for (int i = 0; i < numberOfPlayers; i++) {

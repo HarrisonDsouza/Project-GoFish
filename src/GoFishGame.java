@@ -61,7 +61,7 @@ public class GoFishGame {
                 return player;
             }
         }
-        return null; // Should never happen if at least 2 players
+        return null;
     }
 
     public boolean isOver() {
